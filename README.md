@@ -1,6 +1,8 @@
 # Camaleon CMS - Custom Post Created At
 Camaleon CMS plugin to permit to customize the created at date of post contents
 
+![alt tag](https://github.com/owen2345/camaleon_post_created_at/blob/master/camaleon-cms-rails-created_at_plugin.png)
+
 ## Installation
 * Add this to your Gemfile
 ```
