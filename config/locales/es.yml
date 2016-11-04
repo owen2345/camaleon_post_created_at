@@ -1,0 +1,5 @@
+es:
+  camaleon_cms:
+    plugins:
+      post_created_at:
+        created_at: 'Fecha de Creación'

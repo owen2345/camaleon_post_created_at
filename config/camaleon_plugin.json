@@ -1,0 +1,19 @@
+{
+  "title": "Camaleon Post Created At",
+  "descr": "",
+  "key": "camaleon_post_created_at", // must be the name of the folder of your plugin, sample: app/views/plugins/<my_plugin> ==> 'my_plugin'
+  "helpers": [
+    "Plugins::CamaleonPostCreatedAt::MainHelper"
+  ],
+  "hooks": {
+    "on_active": [
+      "camaleon_post_created_at_on_active"
+    ],
+    "on_inactive": [
+      "camaleon_post_created_at_on_inactive"
+    ],
+    "new_post":["camaleon_post_created_at_post_form"],
+    "edit_post":["camaleon_post_created_at_post_form"]
+    //here you can add all your hooks (read documentation)
+  }
+}
